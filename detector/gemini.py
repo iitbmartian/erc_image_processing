@@ -20,7 +20,7 @@ client=genai.Client(api_key=api_key)
 def read_images_from_directory_cv2(directory_path):
      
     images = []
-    # Define common image extensions
+     
     image_extensions = ('*.jpg', '*.jpeg', '*.png', '*.bmp', '*.tiff')
 
     for ext in image_extensions:
